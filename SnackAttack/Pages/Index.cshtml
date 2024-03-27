@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Snack Attack</h1>
+    <p>Find quick and easy recipes for university students to enjoy and learn about cooking on a budget.</p>
+    <a class="btn btn-primary" asp-page="Recipes/Index">Browse Recipes</a>
+</div>
+
+<hr />
+
+<h2 class="text-center">Featured Recipes</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1159174146/photo/quesadilla-with-chicken-and-sauces.jpg?s=612x612&w=0&k=20&c=c_w0YgNkZO2X2MPIjAS2OYWoBkm7tPLOQOhHABfR8Ao=" class="card-img-top" alt="Recipe 2">
+            <div class="card-body">
+                <h5 class="card-title"> Quesadillas</h5>
+                <p class="card-text">Quesadillas are a quick and easy meal that's perfect for busy university students. Just fill a tortilla with your favorite ingredients, like melted cheese, cooked chicken, and veggies, and heat on a pan until crispy and golden brown. Serve with salsa and sour cream for a delicious and satisfying meal!</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1203819139/photo/avocado.jpg?s=612x612&w=0&k=20&c=j9Weey4y9BD9p-0gdMP8aN-q2lBTwWZjUB-naDe51Z0=" class="card-img-top" alt="Recipe 1">
+            <div class="card-body">
+                <h5 class="card-title">Healthy Avocado Toast</h5>
+                <p class="card-text">This simple yet delicious recipe features ripe avocado mashed on top of toasted whole grain bread. Add a sprinkle of salt, red pepper flakes, and a drizzle of olive oil for a perfect snack!</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/945606006/photo/chicken-fried-rice.jpg?s=612x612&w=0&k=20&c=n3p_r97vJlp013wlxD5WyDYviR0ADj6LiS5QKOYYQLY=" class="card-img-top" alt="Recipe 3">
+            <div class="card-body">
+                <h5 class="card-title">Fried Rice</h5>
+                <p class="card-text">Fried rice is a classic comfort food that's perfect for satisfying those late-night cravings. Simply cook up some rice and stir-fry it with your favorite veggies, like carrots, peas, and onions. Add in some protein, like chicken or shrimp, and season with soy sauce and spices for a delicious and filling meal that's ready in minutes!</p>
+            </div>
+        </div>
+    </div>
+</div>
